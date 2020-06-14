@@ -75,7 +75,7 @@ An alist whose cons cells have a search key as car and the path to the track as 
     (cons
      (concat (format "%s-%s" artist album)
 	     (when year (format " (%s)" year))
-	     ":"
+	     ": "
 	     (when tracknum (concat tracknum "."))
 	     " "
 	     title)
