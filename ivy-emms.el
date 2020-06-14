@@ -4,7 +4,7 @@
 
 ;; Author: Fran Burstall <fran.burstall@gmail.com>
 ;; Version: 0.1
-;; Package-Requires: ((ivy "0.13.0") (emms "0.0") (emacs "24.1"))
+;; Package-Requires: ((ivy "0.13.0") (emms "0.0") (emacs "24.4"))
 ;; Keywords: multimedia
 ;; URL: https://github.com/franburstall/ivy-emms
 
