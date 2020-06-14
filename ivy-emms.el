@@ -23,12 +23,14 @@
 
 ;;; Commentary:
 
-;; TODO:
-;; - handle playlists and other media?
-;; - more actions: show track? Play/pause current? Shuffle?
-;; - learn how to package for melpa
-;; - write commentary
+;; This package offers an ivy interface to play, add and insert tracks
+;; into the current EMMS playlist.
 
+;; Put this file somewhere in your load-path and load it with:
+;;     (require 'ivy-emms)
+
+;; Fire it up with
+;;     M-x ivy-emms
 
 
 ;;; Code:
@@ -150,3 +152,10 @@ With a prefix ARG, invalidate the cache and reread the list of tracks."
 
 (provide 'ivy-emms)
 ;;; ivy-emms.el ends here
+
+;; TODO:
+;; - handle playlists and other media?
+;; - more actions: show track? Play/pause current? Shuffle?
+;; - learn how to package for melpa
+;; - write commentary
+
