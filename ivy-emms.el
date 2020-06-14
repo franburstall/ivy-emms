@@ -3,7 +3,10 @@
 ;; Copyright (C) 2020  Fran Burstall
 
 ;; Author: Fran Burstall <fran.burstall@gmail.com>
+;; Version: 0.1
+;; Package-Requires: ((ivy "0.13.0") (emms "0.0") (emacs "24.1"))
 ;; Keywords: multimedia
+;; URL: https://github.com/franburstall/ivy-emms
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
