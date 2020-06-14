@@ -40,7 +40,7 @@ playlist.  See below for alternatives.
 
 ## Other actions
 
-Hit `M-o` (`ivy-dispatching-done`) to see alternate
+Hit `M-o` (`ivy-dispatching-done`) to choose and apply alternate
 actions.  Currently these are:
 
 |Key|Action|
