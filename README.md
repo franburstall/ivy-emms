@@ -48,6 +48,12 @@ actions.  Currently these are:
 |`a`| Add track(s) to the end of the current playlist|
 |`i`| Insert track(s) into the current playlist right after the current track|
 
+## Rebuilding the track-list
+
+Call `ivy-emms` with a prefix argument `C-u M-x ivy-emms` to
+rebuild the track list.  Useful if you add new music to EMMS
+after loading `ivy-emms`.
+
 
 # Acknowledgements
 
