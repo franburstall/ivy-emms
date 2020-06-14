@@ -73,12 +73,13 @@ An alist whose cons cells have a search key as car and the path to the track as 
 	 (tracknum (emms-track-get track 'info-tracknumber))
 	 (title (emms-track-get track 'info-title)))
     (cons
-     (concat (format "%s-%s" artist album)
-	     (when year (format " (%s)" year))
-	     ": "
-	     (when tracknum (concat tracknum "."))
-	     " "
-	     title)
+     (if (or artist title) (concat (format "%s - %s" artist album)
+				   (when year (format " (%s)" year))
+				   ": "
+				   (when tracknum (concat tracknum "."))
+				   " "
+				   title)
+       path)
      path)))
 
 (defvar ivy-emms-make-item-function #'ivy-emms-simple-make-item
