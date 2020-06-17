@@ -139,6 +139,8 @@ An alist whose cons cells have a search key as car and the path to the track as 
 
 With a prefix ARG, invalidate the cache and reread the list of tracks."
   (interactive "P")
+  (cl-assert (> (hash-table-count emms-cache-db) 0) nil
+	     "Please initialise EMMS by running M-x emms-add-directory-tree.")
   (unless (and ivy-emms-collection (not arg))
     (setq ivy-emms-collection
 	  (mapcar (lambda (k) (funcall ivy-emms-make-item-function k))
@@ -158,4 +160,5 @@ With a prefix ARG, invalidate the cache and reread the list of tracks."
 ;; - more actions: show track? Play/pause current? Shuffle?
 ;; - learn how to package for melpa
 ;; - write commentary
+
 
