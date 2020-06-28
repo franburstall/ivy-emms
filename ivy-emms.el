@@ -38,6 +38,7 @@
 (require 'emms-source-file)
 (require 'emms-cache)
 (require 'ivy)
+(require 'subr-x)
 
 ;;* User options
 (defgroup ivy-emms nil
