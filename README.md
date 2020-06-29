@@ -14,7 +14,20 @@ recent version of `ivy` (MELPA version 20200613.1920 or better).
 
 # Installation
 
-To install, just put `ivy-emms.el` somewhere in your
+## From MELPA
+
+``` elisp
+(package-install 'ivy-emms)
+```
+or
+
+``` elisp
+(use-package ivy-emms
+  :ensure t)
+```
+
+## Manual
+Download `ivy-emms.el`, put it somewhere in your
 load-path and then do either:
 ```elisp
 (require 'ivy-emms)
