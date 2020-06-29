@@ -159,7 +159,6 @@ With a prefix ARG, invalidate the cache and reread the list of tracks."
 ;; TODO:
 ;; - handle playlists and other media?
 ;; - more actions: show track? Play/pause current? Shuffle?
-;; - learn how to package for melpa
-;; - write commentary
+
 
 
