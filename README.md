@@ -1,4 +1,5 @@
 # ivy-emms
+[![MELPA](https://melpa.org/packages/ivy-emms-badge.svg)](https://melpa.org/#/ivy-emms)
 
 A simple ivy interface to [`emms`](https://www.gnu.org/software/emms/).
 
