@@ -5,6 +5,10 @@ A simple ivy interface to [`emms`](https://www.gnu.org/software/emms/).
 
 ![Screenshot](images/ivy-emms.png)
 
+# News
+
+* v0.2: Mark tracks with `C-SPC` and unmark them with `S-SPC`.
+
 # Dependencies
 
 This package requires `emms` and `ivy`.
@@ -46,6 +50,8 @@ Do `M-x ivy-emms` to see a formatted list of tracks to
 choose from.
 
 Hit `RET` to play the chosen track.
+
+Mark tracks with `C-SPC` and unmark them with `S-SPC`.
 
 Mark several tracks and hit `RET` to play the first track
 and queue the rest in the current playlist.
@@ -116,5 +122,5 @@ Have a look at `ivy-emms-simple-make-item` for ideas to get started.
 # Acknowledgements
 
 This package owes a clear intellectual debt to [`helm-emms`](https://github.com/emacs-helm/helm-emms)
-and also to [`ivy-bitex`](https://github.com/tmalsburg/helm-bibtex) from which I learned how to
-work with `ivy`.
+and also to [`ivy-bibtex`](https://github.com/tmalsburg/helm-bibtex) from which I learned how to
+work with `ivy`.  I got the idea for easy track (un-)marking from [`org-ref`](https://github.com/jkitchin/org-ref).
