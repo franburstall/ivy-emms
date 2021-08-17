@@ -103,7 +103,7 @@ An alist whose cons cells have a search key as car and the path to the track as 
     (define-key map (kbd "C-SPC") 'ivy-mark)
     (define-key map (kbd "S-SPC") 'ivy-unmark)
     map)
-  "Keymap for ivy-emms.")
+  "Keymap for `ivy-emms'.")
 
 ;;* Actions
 
