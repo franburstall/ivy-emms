@@ -7,7 +7,7 @@ A simple ivy interface to [`emms`](https://www.gnu.org/software/emms/).
 
 # News
 
-* v0.2: Mark tracks with `C-SPC` and unmark them with `S-SPC`.
+* v0.3: Sort track list.
 
 # Dependencies
 
