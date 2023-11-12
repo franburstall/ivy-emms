@@ -3,7 +3,7 @@
 ;; Copyright (C) 2020  Fran Burstall
 
 ;; Author: Fran Burstall <fran.burstall@gmail.com>
-;; Version: 0.2
+;; Version: 0.3
 ;; Package-Requires: ((ivy "0.13.0") (emms "0.0") (emacs "24.4"))
 ;; Keywords: multimedia
 ;; URL: https://github.com/franburstall/ivy-emms
@@ -158,7 +158,7 @@ With a prefix ARG, invalidate the cache and reread the list of tracks."
   (unless (and ivy-emms-collection (not arg))
     (setq ivy-emms-collection
 	  (mapcar (lambda (k) (funcall ivy-emms-make-item-function k))
-		  (hash-table-keys emms-cache-db))))
+		  (sort (hash-table-keys emms-cache-db) #'string<))))
   (let ((current-prefix-arg nil))
     (ivy-read "Track: " ivy-emms-collection
 	      :keymap ivy-emms-keymap
